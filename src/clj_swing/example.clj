@@ -39,8 +39,8 @@
        :focusable true
        :paint ([g]
 		 (proxy-super paintComponent g)
-		 (paint-donut g)))]))
-
+		 (paint-donut g)))])
+)
 (defn grid-bag-example []
   (frame :title "Sort Visualizer" :layout (GridBagLayout.) :constrains (java.awt.GridBagConstraints.) :name fr
 	 :show true :pack true
