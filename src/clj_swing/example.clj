@@ -4,6 +4,7 @@
 (import '(javax.swing  UIManager)
 	'(java.awt BasicStroke Color Dimension Graphics Graphics2D RenderingHints)
 	'(java.awt.geom AffineTransform Ellipse2D)
+	'(java.awt.event KeyEvent)
 	'(java.awt GridBagLayout FlowLayout GridLayout GridBagConstraints)
 	clj-swing.tree.Pathed)
 
